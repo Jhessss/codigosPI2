@@ -26,7 +26,7 @@ try:
         GPIO.output(pin, GPIO.HIGH)
     
     # Manter os LEDs ligados por 10 segundos
-    time.sleep(10)
+    time.sleep(15)
 
 finally:
     # Desligar todos os LEDs e limpar a configuração GPIO
