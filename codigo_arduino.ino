@@ -1,4 +1,4 @@
-const int relePin = 7;  // Defina o pino onde o relé está conectado
+const int relePin = 7;  // pino onde o relé está conectado
 
 void setup() {
   pinMode(relePin, OUTPUT);
