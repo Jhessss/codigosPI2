@@ -2,6 +2,13 @@
 sudo apt-get update
 sudo apt-get install python3-rpi.gpio
 
+Conexões físicas.
+GPIO 17 (Pino físico 11)
+GPIO 27 (Pino físico 13)
+GPIO 22 (Pino físico 15)
+GPIO 23 (Pino físico 16)
+GPIO 24 (Pino físico 18)
+
 
 python3 led_control.py
 
