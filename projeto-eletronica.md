@@ -30,7 +30,7 @@ Essa webcam foi escolhida pois o grupo já a possuía. O fato de utilizar uma re
 
 ![webcam_C925e](assets/images/reles.png)
 
-Esse dispositivo temporizador e modelo de relé foi escolhido pois possui um sistema integrado que permite a temporização individual sem estar sob o controle da Raspberry, isso é necessário para ligar e desligar a Raspberry que não possui essa função nativa, apenas ligando no momento que é fornecido tensão na entrada de 5V da mesma. Dessa forma será evitado que a Raspberry fique ligada no momento que não tem operações sendo realizadas e menor custo energético para o projeto. Esse relé pode ser alimentado diretamente pela bateria de 24v e isso facilita a implementação. Será utilizado outros quatro relés do mesmo modelo mas sem sistema temporizador pois serão usados para operar a bomba, válvula solenoide e LED. Esses serão controlados pela Raspberry quando estiver ligada.
+Esse dispositivo temporizador e modelo de relé foi escolhido pois possui um sistema integrado que permite a temporização individual sem estar sob o controle da Raspberry, isso é necessário para ligar e desligar a Raspberry que não possui essa função nativa, apenas ligando no momento que é fornecido tensão na entrada de 5V da mesma. Dessa forma será evitado que a Raspberry fique ligada no momento que não tem operações sendo realizadas e menor custo energético para o projeto. Esse relé pode ser alimentado diretamente pela bateria de 24v e isso facilita a implementação. 
 
 ## **Módulo Rele 2 canais com optoacoplador**
 
@@ -38,7 +38,8 @@ Esse dispositivo temporizador e modelo de relé foi escolhido pois possui um sis
 
 Esse Módulo Relé possui 2 reles de 1 canal 5V com interface padrão TTL, que pode ser controlado diretamente por diversos Microcontroladores (Arduino, 8051, AVR, PIC, DSP, ARM, ARM, MSP430, Raspberry).
 O modulo tem proteção do optoacoplador 817C para previnir danos ao microcontrolador ou placa de desenvolvimento.
-Através deste módulo é possível controlar vários aparelhos e outros equipamentos de alta corrente, como por exemplo a bomba de água que será utilizada no projeto.
+Através deste módulo é possível controlar vários aparelhos e equipamentos de alta corrente.
+No projeto serão utilizado dois relés desse modelo, que serão operados pela raspberry, um para controlar a bomba e o outro para realizar o acionamento dos LEDs.
 
 ## **Bomba de água 22w 800l/h 24v Dc**
 
