@@ -11,7 +11,6 @@ GPIO.setup(sensor_pin, GPIO.IN, pull_up_down=GPIO.PUD_UP)
 def sensor_callback(channel):
     if GPIO.input(sensor_pin):
         print("Nível da água baixo")
-        # Adicione aqui o código que deseja interromper quando o nível da água estiver baixo
     else:
         print("Nível da água suficiente para operação")
 
