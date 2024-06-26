@@ -2,7 +2,7 @@ import RPi.GPIO as GPIO
 import time
 
 # Configuração dos pinos
-sensor_pin = 27
+sensor_pin = 23
 
 # Configuração do GPIO
 GPIO.setmode(GPIO.BCM)
